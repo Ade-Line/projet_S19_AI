@@ -93,16 +93,16 @@
   transform: scaleX(1);
 }
 
-#voyante{
+#voyante {
   background-image: url(./images/voyante.jpg);
   box-sizing: border-box;
   background-size: cover;
   height: 800px;
 }
 
-#preview{
+#preview {
   width: 400px;
-  height: 200px;
+  height: 250px;
 }
 
 .custom-file-input {
@@ -110,8 +110,9 @@
   opacity: 1;
   width: 150px;
   height: 25px;
-  
+
 }
+
 .custom-file-input::-webkit-file-upload-button {
   visibility: hidden;
 }
@@ -133,3 +134,15 @@
   outline: none;
 }
 
+#main {
+  background-color: burlywood;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+#video {
+  text-align: center;
+}
